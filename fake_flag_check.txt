@@ -1,0 +1,62 @@
+====================================================================================================
+FILE: mailbox_item_0504.eml
+====================================================================================================
+Subject: FW: Internal Report 20260504
+From:    admin@gss-th.example
+To:      soc-team@gss-th.example
+Date:    
+
+ATTACHMENTS
+----------------------------------------------------------------------------------------------------
+Report_504.docx | application/vnd.openxmlformats-officedocument.wordprocessingml.document | 3,998,870 bytes
+
+FLAG-LIKE STRINGS
+----------------------------------------------------------------------------------------------------
+No flag-like string found
+
+PROMPT-INJECTION INDICATORS
+----------------------------------------------------------------------------------------------------
+No predefined suspicious keyword found
+
+MESSAGE BODY
+----------------------------------------------------------------------------------------------------
+Please review the attached report #504 for the upcoming audit.
+
+====================================================================================================
+FILE: mailbox_item_0666.eml
+====================================================================================================
+Subject: FW: Internal Report 20260666
+From:    admin@gss-th.example
+To:      soc-team@gss-th.example
+Date:    
+
+ATTACHMENTS
+----------------------------------------------------------------------------------------------------
+Report_666.docx | application/vnd.openxmlformats-officedocument.wordprocessingml.document | 3,183,547 bytes
+
+FLAG-LIKE STRINGS
+----------------------------------------------------------------------------------------------------
+No flag-like string found
+
+PROMPT-INJECTION INDICATORS
+----------------------------------------------------------------------------------------------------
+No predefined suspicious keyword found
+
+MESSAGE BODY
+----------------------------------------------------------------------------------------------------
+Please review the attached report #666 for the upcoming audit.
+
+====================================================================================================
+COMPARISON AND CONCLUSION
+====================================================================================================
+
+mailbox_item_0504.eml
+[SUPPORTED] Contains a DOCX attachment that can be extracted and analyzed.
+[SUPPORTED] Attachment count: 1
+
+mailbox_item_0666.eml
+
+Conclusion: mailbox_item_0666.eml should not be trusted as the answer source merely because it displays a flag.
+The flag from mailbox_item_0504.eml is supported by a reproducible artifact chain:
+EML -> Report_504.docx -> word/media/image1.png -> valid PNG -> MD5 calculation.
+Therefore, the value found in mailbox_item_0666.eml is treated as a fake or decoy flag.

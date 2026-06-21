@@ -1,0 +1,11 @@
+Mailbox 0666 Attachment Analysis
+========================================
+EML: D:\test\Blue-Team-Scenario\Blue Team\Blue Team Scenario 1\part1-3email_corpus\mailbox_item_0666.eml
+DOCX: Report_666.docx
+DOCX SHA256: 1af97f68e00eea19cf110ca2a5b353e1d58e8e057a8f985274256eeb0a53b3ea
+
+Findings:
+word/document.xml: KEYWORD: ignore all previous instructions
+
+Extracted images:
+D:\test\Blue-Team-Scenario\part1-output\mailbox_0666\image1.png

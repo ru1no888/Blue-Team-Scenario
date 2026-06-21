@@ -1,0 +1,13 @@
+Artifact Hashes
+===============
+mailbox_item_0504.eml
+7f681c1fcbd1d3ac0720f35fe887a8d94a738c31c87b30f61af699e44a2a1a0d
+
+Report_504.docx
+1469afe7e178d0bc78e891f520ce2a39be502f5b6a49d39a049c085866bbf135
+
+Embedded image full
+02deda85fc0b6cb911c1c03f957c37ef9128312a98ce719d7bbcf6fbd9318ab4
+
+PNG after payload removal
+afd676e00bbe116bd1dd32b27247e9da899fca09113755bb6ea3dc684508e8f2
